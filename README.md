@@ -104,6 +104,18 @@ The project utilizes the following tools and libraries:
 
 - VADER Sentiment Analysis: Analyzing sentiment of review text.
 
+## Sentiment Analysis Visualizations
+
+Here are sample outputs from the sentiment analysis project:
+
+### 1. Sentiment Distribution (Bank of Abyssinia)
+
+![Bank of Abyssinia Sentiment](output/BOA Sentiment.png)
+
+### 2. Rating Distribution Comparison
+
+![Rating Comparison](output/rating_comparison.png)
+
 ### 🤝 Contributing
 
 Contributions are welcome! If you'd like to contribute:
