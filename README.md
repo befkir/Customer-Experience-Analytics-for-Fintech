@@ -137,7 +137,3 @@ git push origin feature/your-feature-name
 
 5. Submit a Pull Request:
    Open a pull request on GitHub to merge your changes into the main branch.
-
-```
-
-```
