@@ -1,0 +1,4 @@
+[2025-06-08 11:49:32] [INFO] [__main__] - Starting EDA analysis...
+[2025-06-08 11:49:33] [INFO] [data_preprocessing] - Loading data for Abyssinia
+[2025-06-08 11:49:34] [INFO] [data_preprocessing] - Loading data for Commercial
+[2025-06-08 11:49:34] [INFO] [data_preprocessing] - Loading data for Dashen
