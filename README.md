@@ -110,7 +110,7 @@ Here are sample outputs from the sentiment analysis project:
 
 ### 1. Sentiment Distribution (Bank of Abyssinia)
 
-![Bank of Abyssinia Sentiment](output/BOA Sentiment.png)
+![Bank of Abyssinia Sentiment](output/BOA%20Sentiment.png)
 
 ### 2. Rating Distribution Comparison
 
