@@ -45,7 +45,7 @@ def analyze_sentiment_keywords(df, title_prefix="",exportName=""):
     plt.ylabel('Count')
 
     # Export
-    output_path=f"../output/{exportName} Sentiment.png"
+    output_path=f"../output/{exportName}_Sentiment.png"
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     plt.savefig(output_path)
 
@@ -61,7 +61,7 @@ def analyze_sentiment_keywords(df, title_prefix="",exportName=""):
     plt.title(f'{title_prefix} Word Cloud for Positive Reviews')
 
     # Export
-    output_path=f"../output/{exportName} Word cloud.png"
+    output_path=f"../output/{exportName}_Word_cloud.png"
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     plt.savefig(output_path)
 
