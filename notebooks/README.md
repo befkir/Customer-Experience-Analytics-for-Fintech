@@ -14,6 +14,8 @@ This folder contains Jupyter notebooks for exploring and analyzing customer expe
 - `eda.ipynb`: Exploratory Data Analysis
 - `Sentiment Analysis.ipynb`: Sentiment Analysis
 
+* `oracleConnection.ipynb`: Create and store cleand data on oracle
+
 ## Usage
 
 1.  Install dependencies using:
