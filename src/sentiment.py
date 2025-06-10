@@ -43,12 +43,15 @@ def analyze_sentiment_keywords(df, title_prefix="",exportName=""):
     plt.title(f'{title_prefix} Sentiment Distribution')
     plt.xlabel('Sentiment')
     plt.ylabel('Count')
-    plt.show()
 
     # Export
     output_path=f"../output/{exportName} Sentiment.png"
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     plt.savefig(output_path)
+
+    plt.show()
+
+    
 
     # Word cloud for positive reviews
     positive_text = ' '.join(positive_reviews)
@@ -56,12 +59,13 @@ def analyze_sentiment_keywords(df, title_prefix="",exportName=""):
     plt.imshow(wordcloud, interpolation='bilinear')
     plt.axis('off')
     plt.title(f'{title_prefix} Word Cloud for Positive Reviews')
-    plt.show()
 
     # Export
     output_path=f"../output/{exportName} Word cloud.png"
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     plt.savefig(output_path)
+
+    plt.show()
 
 # Preprocessing function
 def preprocess_text(text: str) -> str:
